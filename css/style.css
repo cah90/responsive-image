@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: rgba(80, 25, 107, 0.719);
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+}
+

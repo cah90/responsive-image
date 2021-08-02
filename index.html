@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Using &lt;picture&gt; tag</title>
+</head>
+<body>
+  <h1>
+    How &lt;picture&gt; behaves with different screen sizes
+  </h1>
+
+  <div class="images">
+    <div class="image">
+      <picture>
+        <source media="(min-width: 465px)" srcset="images/image-coding-834.jpg">
+        <source media="(min-width: 1200px)" srcset="images/image-coding-1400.jpg">
+        <!-- <source media="(min-width: 1200px)" srcset="images/image-coding-1400.jpg"> -->
+        <img src="images/image-coding-200.jpg" alt="Image of someone coding">
+      </picture>
+    </div>
+  
+    <div class="image">
+      <picture>
+        <source media="(min-width: 465px)" srcset="images/image-dog-1058.jpg">
+        <source media="(min-width: 1200px)" srcset="images/image-dog-1400.jpg">
+        <!-- <source media="(min-width: 1200px)" srcset="images/image-dog-1400.jpg"> -->
+        <img src="images/image-dog-200.jpg" alt="Image of a dog coding">
+      </picture>
+    </div>
+  
+    <div class="image">
+      <picture>
+        <source media="(min-width: 465px)" srcset="images/image-notebook-1035.jpg">
+        <source media="(min-width: 1200px)" srcset="images/image-notebook-1400.jpg">
+        <!-- <source media="(min-width: 1200px)" srcset="images/image-notebook-1400.jpg"> -->
+        <img src="images/image-notebook-200.jpg" alt="Image of a notebook on the table">
+      </picture>
+    </div>
+  </div>
+  
+</body>
+</html>
